@@ -1,0 +1,89 @@
+@media screen and (min-width: 38rem) {
+
+    body {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .header-content {
+        justify-content: flex-start;
+        gap: 1rem;
+    }
+
+    #menu-button {
+        display: none;
+    }
+
+    #navigation {
+        display: flex;
+    }
+
+    #navigation a {
+        padding: 0.5rem 1rem;
+    }
+
+    .about-container {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 1rem;
+    }
+
+    .about-container section {
+        border: 1px solid #ccc;
+        min-height: 180px;
+    }
+
+    .about-container h2 {
+        background-color: #222;
+        color: white;
+        margin: 0;
+        padding: 0.3rem;
+        text-align: center;
+    }
+
+    .about-container p {
+        padding: 0.5rem;
+    }
+
+    .about-container img {
+        display: block;
+        width: 150px;
+        margin: 1rem auto;
+    }
+
+    .course-buttons {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0.75rem;
+    }
+
+    .course-buttons button {
+        padding: 0.5rem;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    #course-list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0.75rem;
+    }
+
+    .course-card {
+        padding: 1rem;
+        border: 1px solid #ccc;
+        background-color: white;
+    }
+
+    .course-card.completed {
+        background-color: #d9ead3;
+        border: 2px solid #4caf50;
+    }
+
+    #course-list>p {
+        grid-column: 1 / -1;
+        text-align: center;
+        font-weight: bold;
+    }
+}

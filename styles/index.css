@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+main {
+    padding: 0.5rem;
+}
+
+h1 {
+    margin: 0.5rem 0;
+}
+
+header {
+    background-color: #222;
+    color: white;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.75rem 1rem;
+}
+
+.site-logo {
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+}
+
+.site-logo circle {
+    fill: white;
+}
+
+#menu-button {
+    font-size: 1.8rem;
+    border: none;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+#navigation {
+    background-color: #222;
+    display: none;
+    justify-content: center;
+}
+
+#navigation.show {
+    display: flex;
+}
+
+#navigation a {
+    color: white;
+    text-decoration: none;
+    padding: 0.75rem 1rem;
+    display: inline-block;
+}
+
+#navigation a:hover {
+    background-color: #444;
+}
+
+.about-container {
+    display: grid;
+    gap: 1rem;
+}
+
+.about-container section {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.about-container p {
+    padding: 0 1rem;
+    line-height: 1.5;
+}
+
+section h2 {
+    margin: 0;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 1rem;
+    background-color: #eee;
+}
+
+.about-container img {
+    display: block;
+    width: 150px;
+    margin: 1rem auto;
+}
+
+.course-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem 0;
+}
+
+.course-buttons button {
+    padding: 0.6rem 1.2rem;
+    border: 1px solid #222;
+    border-radius: 4px;
+    background-color: #222;
+    color: white;
+    cursor: pointer;
+}
+
+.course-buttons:hover {
+    background-color: transparent;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.course-card {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.course-card.completed {
+    background-color: #d9ead3;
+    border: 2px solid #4caf50;
+}
+
+#course-list>p {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+footer {
+    margin-top: 2rem;
+    padding: 1.5rem 1rem;
+    text-align: center;
+    background-color: #222;
+    color: white;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}

@@ -7,16 +7,30 @@
     <meta name="author" content="John Agramonte">
     <meta name="description" content="Home Page">
     <title>Home Page</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/index-large.css">
+
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/courses.js" defer></script>
 </head>
 
 <body>
     <header>
         <div class="header-content">
+            <svg class="site-logo" viewBox="0 0 100 100" aria-label="John Agramonte logo">
+                <circle cx="50" cy="50" r="45"></circle>
+                <text x="50" y="60" text-anchor="middle">JA</text>
+            </svg>
+
             <span>John Agramonte</span>
-            <img src="images/profile.webp" alt="John Agramonte">
-            <button id="menu-button">☰</button>
+
+            <button id="menu-button" aria-label="Open navigation menu">☰</button>
         </div>
     </header>
 
@@ -29,29 +43,41 @@
     <main>
         <h1>Home</h1>
 
-        <section>
-            <h2>About Me</h2>
-            <p>
-                My name is John Agramonte. I'm from Santo Domingo, Dominican Republic, but I've been living in American
-                Fork Utah for the past year and half. I served my mission in both the Santiago, Dominican Republic
-                mission and in the Nevada, Las Vegas West Mission.
-            </p>
-        </section>
+        <div class="about-container">
+            <section>
+                <h2>About Me</h2>
+                <p>
+                    My name is John Agramonte. I'm from Santo Domingo,
+                    Dominican Republic, but I've been living in American
+                    Fork Utah for the past year and half. I served my
+                    mission in both the Santiago, Dominican Republic
+                    mission and in the Nevada, Las Vegas West Mission.
+                </p>
 
-        <section>
-            <h2>Student Information</h2>
-            <p>
+                <p>
+                    I love listening to music, spending time with family and friends, but
+                    the thing I enjoy the most is attending the temple regularly. When I'm
+                    there, I can feel my Saviors love deeply.
+                </p>
+            </section>
 
-            </p>
-        </section>
+            <section>
+                <h2>Student Photo</h2>
+                <p>
+                    <img src="images/profile.webp" alt="John Agramonte">
+                </p>
+            </section>
+
+        </div>
+
 
         <section>
             <h2>Web and Computer Programming Certificate</h2>
 
-            <div class="course-button">
-                <button>All Courses</button>
-                <button>CSE</button>
-                <button>WDD</button>
+            <div class="course-buttons">
+                <button id="all-courses">All Courses</button>
+                <button id="cse-courses">CSE</button>
+                <button id="wdd-courses">WDD</button>
             </div>
 
             <div id="course-list"></div>
@@ -60,18 +86,15 @@
 
     <footer>
         <div class="social-links">
-            <a href="#">GitHub</a>
-            <a href="#">LinkedIn</a>
-            <a href="#">Other</a>
+            <a href="https://github.com/jagramonteperalta-prog/wdd231.git">GitHub</a>
+            <a href="https://www.linkedin.com/in/john-agramonte-45509a3b9/">LinkedIn</a>
+            <a href="#">X</a>
         </div>
 
         <p>&copy; <span id="current-year"></span> John Agramonte | Utah</p>
         <p>Last Modification: <span id="last-modified"></span></p>
     </footer>
 
-    <script src="scripts/navigation.js"></script>
-    <script src="scripts/date.js"></script>
-    <script src="scripts/courses.js"></script>
 </body>
 
 </html>

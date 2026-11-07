@@ -116,12 +116,6 @@ section h2 {
     background-color: transparent;
 }
 
-.social-links {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-}
-
 .course-card {
     padding: 1rem;
     border: 1px solid #ccc;

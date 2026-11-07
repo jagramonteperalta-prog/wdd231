@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="John Agramonte">
+    <meta name="description" content="Home Page">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/index-large.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <span>John Agramonte</span>
+            <img src="images/profile.webp" alt="John Agramonte">
+            <button id="menu-button">☰</button>
+        </div>
+    </header>
+
+    <nav id="navigation">
+        <a href="index.html">Home</a>
+        <a href="#">Chamber</a>
+        <a href="#">Final</a>
+    </nav>
+
+    <main>
+        <h1>Home</h1>
+
+        <section>
+            <h2>About Me</h2>
+            <p>
+                My name is John Agramonte. I'm from Santo Domingo, Dominican Republic, but I've been living in American
+                Fork Utah for the past year and half. I served my mission in both the Santiago, Dominican Republic
+                mission and in the Nevada, Las Vegas West Mission.
+            </p>
+        </section>
+
+        <section>
+            <h2>Student Information</h2>
+            <p>
+
+            </p>
+        </section>
+
+        <section>
+            <h2>Web and Computer Programming Certificate</h2>
+
+            <div class="course-button">
+                <button>All Courses</button>
+                <button>CSE</button>
+                <button>WDD</button>
+            </div>
+
+            <div id="course-list"></div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="#">GitHub</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">Other</a>
+        </div>
+
+        <p>&copy; <span id="current-year"></span> John Agramonte | Utah</p>
+        <p>Last Modification: <span id="last-modified"></span></p>
+    </footer>
+
+    <script src="scripts/navigation.js"></script>
+    <script src="scripts/date.js"></script>
+    <script src="scripts/courses.js"></script>
+</body>
+
+</html>

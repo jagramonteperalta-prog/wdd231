@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    text-align: center;
+    color: #4b4b91;
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2px;
+    padding: 10px;
+}
+
+.card {
+    text-align: center;
+    background-color: #d0d0e5;
+    padding: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+.card img {
+    width: 120px;
+    height: auto;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}

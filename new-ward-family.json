@@ -1,0 +1,33 @@
+{
+    "familyName": "Agramonte",
+    "moveInDate": "2024-01-24",
+    "numberOfPeople": 5,
+    "visitedByBishopric": true,
+    "familyMembers": [
+        {
+            "name": "Jhonn Agramonte",
+            "gender": "Male",
+            "birthdate": "1968-09-22"
+        },
+        {
+            "name": "Olga Agramonte",
+            "gender": "Female",
+            "birthdate": "1975-08-16"
+        },
+        {
+            "name": "John Agramonte",
+            "gender": "Male",
+            "birthdate": "2003-09-17"
+        },
+        {
+            "name": "Luis Agramonte",
+            "gender": "Male",
+            "birthdate": "2006-05-21"
+        },
+        {
+            "name": "John C. Agramonte",
+            "gender": "Male",
+            "birthdate": "2008-07-22"
+        }
+    ]
+}

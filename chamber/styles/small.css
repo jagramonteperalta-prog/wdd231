@@ -35,7 +35,7 @@ header {
     object-fit: contain;
 }
 
-.site-branding h1 {
+.site-branding .site-title {
     font-size: 1.5rem;
     margin: 0;
 }

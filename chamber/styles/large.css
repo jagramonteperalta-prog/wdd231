@@ -1,53 +1,90 @@
-@media screen and (min-width: 700px) {
-    .header-content {
-        max-width: 1200px;
-        margin: 0 auto;
-    }
-
-    #menu-button {
-        display: none;
-    }
-
-    #navigation {
-        display: block;
-        background-color: transparent;
-    }
-
-    #navigation ul {
-        display: flex;
-        justify-content: center;
-        gap: 2rem;
-    }
-
-    #navigation li {
-        border-bottom: none;
-    }
-
-    #navigation a {
-        padding: 1rem;
-    }
-
-    #navigation a:hover {
-        background-color: transparent;
-        text-decoration: underline;
-    }
-
-    main {
-        padding: 2rem;
-    }
-
-    #members {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 1.5rem;
-    }
-
-    footer {
-        padding: 2rem;
-    }
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
 }
 
-@media screen and (min-width: 1000px) {
-    #members {
-        grid-template-columns: repeat(3, 1fr);
-    }
+main h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.directory-controls {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.directory-controls button {
+    padding: 0.6rem 1.2rem;
+    border: none;
+    background-color: #003893;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#members {
+    display: grid;
+    gap: 1rem;
+    margin: 0 auto;
+}
+
+.member-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.member-card img {
+    width: 100%;
+    max-width: 200px;
+    height: 120px;
+    object-fit: contain;
+    margin-bottom: 1rem;
+}
+
+.member-card h3 {
+    margin-top: 0;
+    color: #003893;
+}
+
+.member-card p {
+    margin: 0.4rem 0;
+}
+
+.member-card a {
+    color: #003893;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#members.list {
+    display: block;
+}
+
+#members.list .member-card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+#members.list .member-card img {
+    width: 100px;
+    height: 80px;
+    margin-bottom: 0;
+}
+
+footer {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background-color: #222;
+    color: white;
+    text-align: center;
+    font-size: 0.9rem;
 }

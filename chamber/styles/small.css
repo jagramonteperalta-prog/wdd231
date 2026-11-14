@@ -78,6 +78,12 @@ header {
     text-decoration: none;
 }
 
+#navigation a.active {
+    background-color: #003893;
+    color: white;
+    font-weight: bold;
+}
+
 #navigation a:hover {
     background-color: #444;
 }
@@ -160,9 +166,7 @@ main h2 {
 }
 
 #members.list .member-card img {
-    width: 100px;
-    height: 80px;
-    margin-bottom: 0;
+    display: none;
 }
 
 footer {

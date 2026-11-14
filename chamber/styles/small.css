@@ -112,6 +112,7 @@ main h2 {
 #members {
     display: grid;
     gap: 1rem;
+    margin: 0 auto;
 }
 
 .member-card {

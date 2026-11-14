@@ -39,7 +39,7 @@ function displayMembers(data) {
         const card = document.createElement("article");
         card.classList.add("member-card");
 
-        const name = document.createElement("h3");
+        const name = document.createElement("h2");
         name.textContent = member.name;
         card.appendChild(name);
 

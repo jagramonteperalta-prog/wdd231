@@ -145,11 +145,11 @@ main h2 {
     font-weight: bold;
 }
 
-.list {
+#members.list {
     display: block;
 }
 
-.list .member-card {
+#members.list .member-card {
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -157,7 +157,7 @@ main h2 {
     margin-bottom: 1rem;
 }
 
-.list .member-card img {
+#members.list .member-card img {
     width: 100px;
     height: 80px;
     margin-bottom: 0;

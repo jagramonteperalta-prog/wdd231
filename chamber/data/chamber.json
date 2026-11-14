@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Caribe Tours",
+        "address": "Av. 27 de Febrero 219, Santo Domingo",
+        "phone": "809-221-4422",
+        "website": "https://caribetours.com.do/",
+        "image": "images/caribe-tours.jpg",
+        "membership": "Gold"
+    },
+    {
+        "name": "Grupo Ramos",
+        "address": "Av. John F. Kennedy, Santo Domingo",
+        "phone": "809-472-0101",
+        "website": "https://www.gruporamos.com/",
+        "image": "images/grupo-ramos.jpg",
+        "membership": "Gold"
+    },
+    {
+        "name": "Banco Popular Dominicano",
+        "address": "Av. John F. Kennedy 20, Santo Domingo",
+        "phone": "809-544-5555",
+        "website": "https://www.popularenlinea.com/",
+        "image": "images/banco-popular.jpg",
+        "membership": "Gold"
+    },
+    {
+        "name": "Banco BHD",
+        "address": "Av. 27 de Febrero esquina Winston Churchill, Santo Domingo",
+        "phone": "809-243-5000",
+        "website": "https://bhd.com.do/",
+        "image": "images/banco-bhd.jpg",
+        "membership": "Gold"
+    },
+    {
+        "name": "Banreservas",
+        "address": "Santo Domingo, Dominican Republic",
+        "phone": "809-960-2121",
+        "website": "https://www.banreservas.com/",
+        "image": "images/banreservas.jpg",
+        "membership": "Gold"
+    },
+    {
+        "name": "Casa Cuesta",
+        "address": "Av. Abraham Lincoln 1101, Santo Domingo",
+        "phone": "809-472-1800",
+        "website": "https://casacuesta.com/",
+        "image": "images/casa-cuesta.png",
+        "membership": "Silver"
+    },
+    {
+        "name": "Café Santo Domingo",
+        "address": "Av. Lope de Vega 13, Santo Domingo",
+        "phone": "809-544-2727",
+        "website": "https://cafe-santo-domingo.com/",
+        "image": "images/cafe-santo-domingo.jpg",
+        "membership": "Silver"
+    },
+    {
+        "name": "La Sirena",
+        "address": "Av. Charles de Gaulle, Santo Domingo Este",
+        "phone": "809-472-0101",
+        "website": "https://www.lasirena.com.do/",
+        "image": "images/la-sirena.jpg",
+        "membership": "Silver"
+    },
+    {
+        "name": "Helados Bon",
+        "address": "Av. Winston Churchill 85, Santo Domingo",
+        "phone": "809-565-2690",
+        "website": "https://heladosbon.com/",
+        "image": "images/helados-bon.jpg",
+        "membership": "Member"
+    }
+]

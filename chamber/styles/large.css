@@ -1,0 +1,53 @@
+@media screen and (min-width: 700px) {
+    .header-content {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    #menu-button {
+        display: none;
+    }
+
+    #navigation {
+        display: block;
+        background-color: transparent;
+    }
+
+    #navigation ul {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    #navigation li {
+        border-bottom: none;
+    }
+
+    #navigation a {
+        padding: 1rem;
+    }
+
+    #navigation a:hover {
+        background-color: transparent;
+        text-decoration: underline;
+    }
+
+    main {
+        padding: 2rem;
+    }
+
+    #members {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+
+    footer {
+        padding: 2rem;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    #members {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

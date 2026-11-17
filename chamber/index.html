@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dominican Republic Chamber of Commerce</title>
+    <meta name="author" content="John Agramonte">
+    <meta name="description" content="Connect with businesses, events, and opportunities through the 
+    Dominican Republic Chamber of Commerce">
+
+    <link rel="icon" href="../favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <meta property="og:title" content="Dominican Republic Chamber of Commerce">
+    <meta property="og:description" content="Explore businesses and organizations that are 
+    members of the Dominican Republic Chamber of Commerce">
+
+    <meta property="og:url" content="https://github.com/jagramonteperalta-prog/wdd231/chamber/">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://jagramonteperalta-prog.github.io/wdd231/chamber/images/logo2.jpg">
+
+    <script src="scripts/chamber.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <div class="site-branding">
+                <img src="images/logo2.jpg" alt="Dominican Republic Chamber of Commerce logo">
+
+                <div>
+                    <p class="site-title">Dominican Republic</p>
+                    <p>Chamber of Commerce</p>
+                </div>
+            </div>
+
+            <button id="menu-button" aria-label="Open navigation menu" aria-expanded="false">
+                ☰
+            </button>
+        </div>
+
+        <nav id="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html" class="active">Directory</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <section class="hero">
+            <img src="images/chamber-of-commerce.jpg" alt="Dominican Republic Chamber of Commerce">
+
+            <div class="hero-content">
+                <h1>Dominican Republic Chamber of Commerce</h1>
+                <a href="join.html">Join the Chamber</a>
+            </div>
+        </section>
+
+        <section class="events">
+            <h2>Current Events</h2>
+
+            <article class="event-card">
+                <h3>Chamber Networking Event</h3>
+                <p> Connect with local business owners and Chamber members</p>
+                <p><strong>Date:</strong> Coming Soon</p>
+            </article>
+        </section>
+
+        <section class="weather">
+            <h2>Weather</h2>
+            <p>Current temperature: <span id="current-temp"></span></p>
+            <p id="weather-description"></p>
+
+            <div id="forecast">
+                <h3>3-Day Forecast</h3>
+                <div id="forecast-container">
+
+                </div>
+            </div>
+        </section>
+
+        <section class="spotlights">
+            <h2>Member Spotlights</h2>
+            <div id="spotlight-container">
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-contact">
+            <h2>Dominican Republic Chamber of Commerce</h2>
+            <p>Santo Domingo, Dominican Republic</p>
+            <p>info@drchamber.org</p>
+            <p>+1 809-555-1234</p>
+        </div>
+
+        <div class="footer-development">
+            <p>&copy; <span id="current-year"></span> Dominican Republic Chamber of Commerce</p>
+            <p>John Agramonte | WDD 231</p>
+            <p>Last Modification: <span id="last-modified"></span></p>
+        </div>
+    </footer>
+</body>
+
+</html>

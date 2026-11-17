@@ -99,6 +99,81 @@ main h2 {
     margin-bottom: 1.5rem;
 }
 
+.hero {
+    position: relative;
+    width: 100%;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hero-content {
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 1rem;
+}
+
+.hero-content h1 {
+    margin-bottom: 1rem;
+}
+
+.hero-content a {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #003893;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero img {
+    width: 100%;
+}
+
+.events {
+    margin: 2rem 0;
+}
+
+.event-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1.5rem;
+    background-color: #f8f8f8;
+}
+
+.event-card h3 {
+    color: #003893;
+    margin-top: 0;
+}
+
+.event-card p {
+    margin: 0.5rem 0;
+}
+
+#forecast-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+#forecast-container article {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+#forecast-container img {
+    width: 80px;
+    height: 80px;
+}
+
 .directory-controls {
     display: flex;
     justify-content: center;
@@ -176,4 +251,31 @@ footer {
     color: white;
     text-align: center;
     font-size: 0.9rem;
+}
+
+#spotlight-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+#spotlight-container .member-card {
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+#spotlight-container .member-card img {
+    width: 100%;
+    max-width: 180px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 1rem;
+}
+
+#spotlight-container .member-card h3 {
+    color: #003893;
+    margin-top: 0;
 }
